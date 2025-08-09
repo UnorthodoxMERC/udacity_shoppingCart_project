@@ -13,24 +13,24 @@
     price: 0.49,
     quantity: 0,
     productId: 1,
-    image: URL('../images/cherry.jpg')
-  }
+    URL: '../images/cherry.jpg'
+  };
 
-  cosnt orange = {
+  const orange = {
     name: 'orange',
     price: 0.79,
     quantity: 0,
     productId: 2,
-    image: URL('../images/orange.jpg')
-  }
+    URL: '../images/orange.jpg'
+  };
 
   const strawberry = {
     name: 'strawberrry', 
     price: 0.33,
     quantity: 0,
     productId: 3,
-    image: URL('../images/strawberry.jpg')
-  }
+    URL: '../images/strawberry.jpg'
+  };
 /* Images provided in /images folder. All images from Unsplash.com
    - cherry.jpg by Mae Mu
    - orange.jpg by Mae Mu
@@ -44,7 +44,9 @@
   - addProductToCart should then increase the product's quantity
   - if the product is not already in the cart, add it to the cart
 */
-
+//const addProductToCart = (productId) => {
+  //if (productId in cart)
+//}
 /* Create a function named increaseQuantity that takes in the productId as an argument
   - increaseQuantity should get the correct product based on the productId
   - increaseQuantity should then increase the product's quantity
